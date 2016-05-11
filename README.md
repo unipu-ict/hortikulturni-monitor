@@ -1,5 +1,5 @@
 # hortikulturni-monitor
-Aplikacija za praćenje vanjskog senzora vlažnosti tla/temperature/intenziteta svjetla.
+Mobilna aplikacija za praćenje vanjskog senzora vlažnosti tla/temperature/intenziteta svjetla.
 
 ### Autori
 - **Petković	Mihovil**	(mpetkovic@outlook.com)
