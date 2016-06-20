@@ -31,3 +31,7 @@ temelje na ovoj aplikaciji.
 [Odjel za informacijsko-komunikacijske tehnologije](http://www.unipu.hr/index.php?id=1933)  
 Mobilne aplikacije, Ak.g. 2015./2016.  
 Voditelj: **Siniša Sovilj** (ssovilj@unipu.hr)
+
+### Screenshot
+
+![alt tag](https://raw.githubusercontent.com/m-petkovic/hortikulturni-monitor/master/app/src/main/res/Screenshot/screenshot.png)
