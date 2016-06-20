@@ -1,16 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ma.unipu.hr.hortikulturni_monitor.MainActivity">
+    tools:context="flower.ma.hr.multipower.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/splash"
+            android:id="@+id/imageView" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/temp_gauge"/>
+
+                <io.sule.gaugelibrary.GaugeView
+                    android:id="@+id/temperature"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="#FFF"
+                    gauge:innerCircleColor="#FFF"
+                    gauge:outerCircleColor="#b04d4d"
+                    gauge:showOuterShadow="false"
+                    gauge:showOuterRim="false"
+                    gauge:showInnerRim="false"
+                    gauge:needleWidth="0.010"
+                    gauge:needleHeight="0.40"
+                    gauge:scaleStartValue="0"
+                    gauge:scaleEndValue="100" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/soil_gauge"/>
+
+                <io.sule.gaugelibrary.GaugeView
+                    android:id="@+id/soil"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="#FFF"
+                    gauge:innerCircleColor="#FFF"
+                    gauge:outerCircleColor="#956833"
+                    gauge:showOuterShadow="false"
+                    gauge:showOuterRim="false"
+                    gauge:showInnerRim="false"
+                    gauge:needleWidth="0.010"
+                    gauge:needleHeight="0.40"
+                    gauge:scaleStartValue="0"
+                    gauge:scaleEndValue="100" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sun_gauge"/>
+
+                <io.sule.gaugelibrary.GaugeView
+                    android:id="@+id/sun"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="#FFF"
+                    gauge:innerCircleColor="#FFF"
+                    gauge:outerCircleColor="#c7cd2d"
+                    gauge:showOuterShadow="false"
+                    gauge:showOuterRim="false"
+                    gauge:showInnerRim="false"
+                    gauge:needleWidth="0.010"
+                    gauge:needleHeight="0.40"
+                    gauge:scaleStartValue="0"
+                    gauge:scaleEndValue="100" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/battery_gauge"/>
+
+                <io.sule.gaugelibrary.GaugeView
+                    android:id="@+id/battery"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="#FFF"
+                    gauge:innerCircleColor="#FFF"
+                    gauge:outerCircleColor="#1ba9ae"
+                    gauge:showOuterShadow="false"
+                    gauge:showOuterRim="false"
+                    gauge:showInnerRim="false"
+                    gauge:needleWidth="0.010"
+                    gauge:needleHeight="0.40"
+                    gauge:scaleStartValue="0"
+                    gauge:scaleEndValue="100" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flower_button"
+            android:text="@string/main_spremi"
+            android:id="@+id/btn_spremi" />
+
+        <!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_prati"
+            android:id="@+id/btn_prati" />
+        -->
+
+    </LinearLayout>
+
+</ScrollView>

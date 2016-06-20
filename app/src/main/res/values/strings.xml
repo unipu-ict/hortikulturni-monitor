@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Hortikulturni_monitor</string>
+    <string name="app_name">MultiFlower</string>
+
+    <!-- config activity -->
+    <string name="config_start">Start</string>
+    <string name="config_about">O aplikaciji</string>
+    <string name="ble_not_supported">Bluetooth low energy nije podržan na ovom uređaju</string>
+    <string name="error_bluetooth_not_supported">Bluetooth nije podržan</string>
+
+    <!-- main activity -->
+    <string name="temp_gauge">Temperatura (°C)</string>
+    <string name="soil_gauge">Vlažnost tla (%)</string>
+    <string name="sun_gauge">Količina svjetlosti (%)</string>
+    <string name="battery_gauge">Razina baterije (%)</string>
+    <string name="main_spremi">Spremi podatke</string>
+    <string name="main_povijest">Povijest unosa</string>
+    <string name="main_prati">Prati stanje</string>
 </resources>
