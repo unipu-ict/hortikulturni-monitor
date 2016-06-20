@@ -34,4 +34,4 @@ Voditelj: **Siniša Sovilj** (ssovilj@unipu.hr)
 
 ### Screenshot
 
-![alt tag](https://raw.githubusercontent.com/m-petkovic/hortikulturni-monitor/master/app/src/main/res/Screenshot/screenshot.png)
+[[https://github.com/m-petkovic/hortikulturni-monitor/master/app/src/main/res/Screenshot/screenshot.png]]
