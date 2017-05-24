@@ -14,7 +14,7 @@ Nema definiranih prava
 - [FlowerPower4Android](https://github.com/MahatmaX/flowerpower4android)
 - [GaugeView](https://github.com/CodeAndMagic/GaugeView)
 
-### Autori
+### Autori (2015./2016.)
 - **Petković	Mihovil**	(mpetkovic@outlook.com)
 - **Grof	Patrik**	    (pgrof@unipu.hr)
 
